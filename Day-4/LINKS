@@ -1,0 +1,38 @@
+Kubernetes Tasks
+
+URLs for Access
+Task 1 URL:
+
+http://13.208.174.188/index.html
+
+Task 2 URL:
+
+http://13.208.214.179/
+
+steps:
+    1  visudo
+    2  yum install httpd
+    3  which httpd
+    4  service httpd status
+    5  service httpd start
+    6  service httpd status
+    7  clear
+    8  git clone -b https://github.com/4SF22IS028/Coursevita-Retail-Project.git
+    9  yum install git -y
+   10  git clone -b https://github.com/4SF22IS028/Coursevita-Retail-Project.git
+   11  git clone -b master https://github.com/4SF22IS028/Coursevita-Retail-Project.git
+   12  ls
+   13  cd Coursevita-Retail-Project
+   14  cp -r . /var/www/html
+
+GitHub Repository (K8s Manifests):
+
+--> https://github.com/4SF22IS028/devops_session_3.git
+
+AWS Application URL:
+
+--> http://abaf9640c8af64c75b70dca22538e831-1975185909.ap-south-1.elb.amazonaws.com:3002/
+--> http://Deekshitha-loadbalancer-1771090177.ap-northeast-3.elb.amazonaws.com
+
+Note on Screenshots
+Since I was using Sir's AWS account, I am unable to share any screenshots from the tasks as all the instances are Terminated. 
